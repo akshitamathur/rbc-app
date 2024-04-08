@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "RBC-reg";
+  src: url("/src/assets/fonts/RBCDisplay-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "RBC-bold";
+  src: url("/src/assets/fonts/RBCDisplay-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RBC-light";
+  src: url("/src/assets/fonts/RBCDisplay-Light.ttf") format("truetype");
+}
+
+:root {
+  font-family: RBC-reg;
+  color-scheme: dark;
+  color: black;
+  background-color: white;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 3rem;
+  /* text-align: center; */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: RBC-reg;
+}
+
+.bluegrey {
+  color: #87afbf;
+}
+
+.darkblue {
+  color: #003168;
+}

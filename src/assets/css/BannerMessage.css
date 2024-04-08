@@ -1,0 +1,33 @@
+.ctabackground {
+  background-image: url(src/assets/CTA_BKG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6em 15em 6em 15em;
+  color: white;
+  left: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+}
+
+h2 {
+  font-family: RBC-reg;
+  font-size: 1.5rem !important;
+}
+
+.tagline {
+  font-family: RBC-light !important;
+  font-size: 1em !important;
+}
+
+button {
+  font-family: RBC-light !important;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 2px solid #87afbf;
+  margin-top: 2rem !important;
+  cursor: pointer;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  overflow: hidden;
+  font-size: 0.9rem !important;
+}

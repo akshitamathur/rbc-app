@@ -1,0 +1,27 @@
+.headshot img {
+  width: 100%;
+  height: auto;
+}
+
+.headshot {
+  margin: 1rem;
+  padding: 2rem !important;
+}
+
+.headshot:hover {
+  background-color: #e7eef1;
+  cursor: pointer;
+}
+
+.profile h3 {
+  font-family: RBC-light;
+  color: #006ac3;
+  margin-top: 1rem;
+  font-size: 1.5em !important;
+  padding-bottom: 1rem;
+}
+
+.arrow {
+  height: 18px !important;
+  margin-top: 2em;
+}
