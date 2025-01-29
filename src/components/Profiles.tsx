@@ -31,7 +31,7 @@ function Profiles({ personId } : {personId: number}) {
             <div className="col-2">
               <p>
                 <span>
-                  <img className="arrow" src="src/assets/_Icons/Next.svg" />
+                  <img className="arrow" src="/_Icons/Next.svg" />
                 </span>
               </p>
             </div>

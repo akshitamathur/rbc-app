@@ -10,7 +10,7 @@ export const Modal = ({ onClose, userId } : { onClose:any, userId:number}) => {
           <div className="modalBody">
             <div key={profile.name} className="modalHeading">
               <span onClick={() => onClose()} className="close">
-                <img src="../src/assets/_Icons/X.svg" />
+                <img src="/_Icons/X.svg" />
               </span>
             </div>
             <div className="modalContent">
@@ -27,7 +27,7 @@ export const Modal = ({ onClose, userId } : { onClose:any, userId:number}) => {
                   <p>
                     <span>
                       <img
-                        src="../src/assets/_Icons/Vector.svg"
+                        src="/_Icons/Vector.svg"
                         className="mx-3"
                         height="12"
                       />
@@ -35,7 +35,7 @@ export const Modal = ({ onClose, userId } : { onClose:any, userId:number}) => {
                     <span className="connect">{profile.number}</span>
                     <span>
                       <img
-                        src="../src/assets/_Icons/mail_2.svg"
+                        src="/_Icons/mail_2.svg"
                         className="mx-3"
                         height="15"
                       />
@@ -45,7 +45,7 @@ export const Modal = ({ onClose, userId } : { onClose:any, userId:number}) => {
                     </a>
                     <span>
                       <img
-                        src="../src/assets/_Icons/linkedin_2.svg"
+                        src="/_Icons/linkedin_2.svg"
                         className="mx-3"
                         height="12"
                       />
@@ -60,7 +60,7 @@ export const Modal = ({ onClose, userId } : { onClose:any, userId:number}) => {
                     <div className="col-6">
                       <p className="navigation">
                         <span className="me-5">
-                          <img src="../src/assets/_Icons/Previous.svg" />
+                          <img src="/_Icons/Previous.svg" />
                         </span>
                         Previous
                       </p>
@@ -69,7 +69,7 @@ export const Modal = ({ onClose, userId } : { onClose:any, userId:number}) => {
                       <p className="navigation navigationNext">
                         Next
                         <span className="ms-5">
-                          <img src="../src/assets/_Icons/Next.svg" />
+                          <img src="/_Icons/Next.svg" />
                         </span>
                       </p>
                     </div>
