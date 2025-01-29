@@ -1,15 +1,15 @@
 # Project: RBC React Challenge 
 
-This project was a the coding challenge for the Front End Developer position at RBC. The json file, and images were provided, along with a wireframe/pdf of how the webpage needed to look, with a brief explanation of functionality (ie: popups on click).
+This project was a coding challenge for the Front End Developer position at RBC. The JSON file and images were provided, along with a wireframe/pdf of how the webpage needed to look, with a brief explanation of functionality (ie: popups on click).
 
-The time limit for this project was 24 hrs, and was completed before the alloted time.
+The time limit for this project was 24 hrs and was completed before the allotted time.
 
 ## Run / View the Project 
 You can [**view a live demo**](https://rbc-app.vercel.app/) of the project if you prefer not to run locally.
 
 To run locally: 
 
-Download the folder to your desktop, or using GitHub Desktop folder on your laptop, and run using
+Download the folder to your desktop, or use GitHub Desktop folder on your laptop, and run using
 > *npm install*
 > *npm run dev*
 
@@ -19,7 +19,7 @@ Download the folder to your desktop, or using GitHub Desktop folder on your lapt
 - **src**:
 	- **App.tsx**: this is the main page
 	- **components**: this is where the different sections and parts of the page are located. The page is broken into 3 initial sections: *Main message*, *Profiles section*, and the *Banner message*. This is also where the template for the *Profile popup* is.
-- **assets**: this is where the *bioData.json* file is that was provided to populate the data on the page.
+- **assets**: this is where the *bioData.json* file that was provided to populate the data on the page.
 
 
 ## Provided Specs
@@ -38,6 +38,6 @@ The project required the creation of **Function Components,  Built-In Hooks (use
 
 ## Updates
 
-No updates have been made to the initally submitted code for the code challenge. 
+No updates have been made to the initially submitted code for the code challenge. 
 
-> ***Note:*** The only changes that were made were to the image paths after the project was deployed to Vercel as they would not show up otherwise.
+> ***Note:*** The only changes made were to the image paths after the project was deployed to Vercel, as they would not show up otherwise, and the addition of Vercel Analytics. The Analytics is only set up to provide base data such as page visits, unique visitors, and bounce rate. No personal data is collected from this. 
